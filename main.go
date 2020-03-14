@@ -2,7 +2,6 @@ package main
 
 // This conversion to an empty interface and then to the original type back has a cost for your program.
 func main() {
-
 	var i int8 = 1
 	sample1(i) // regular
 	sample2(i) // panic
