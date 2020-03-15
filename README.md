@@ -1,6 +1,16 @@
 
 # Go empty interface
 
+Project to explore Golang empty interface concept
+
+## Definition
+
+Internally, an interface value is two words (a.k.a. sets of bytes):
+- One word points to the value underlying type.
+- One word points to the data.
+
+---
+
 ## Run
 
 ### with Type
@@ -38,4 +48,8 @@ Well used and with parsimony, in most of the case the empty interface should hav
 
 ## Links
 
+- https://tour.golang.org/methods/14
+- https://flaviocopes.com/go-empty-interface/
+- https://golang.org/doc/faq#convert_slice_of_interface
 - [medium blanchon.vincent](https://medium.com/@blanchon.vincent/go-understand-the-empty-interface-2d9fc1e5ec72)
+- https://dev.to/flrnd/understanding-the-empty-interface-in-go-4652
